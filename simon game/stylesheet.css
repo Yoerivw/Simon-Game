@@ -1,0 +1,74 @@
+.table .green{
+  
+  background-color:green;
+}
+.table .green:active, .table .green.active{
+  opacity: 0.75;
+ /* background-color:#58ed44;*/
+}
+.table .red{
+  background-color:red;
+}
+.table .red:active, .table .red.active{
+  opacity: 0.75
+  /*background-color:#ed4444;*/
+}
+.table .yellow{
+  
+  background-color:yellow;
+}
+.table .yellow:active, .table .yellow.active{
+  opacity: 0.75
+  
+}
+.table .blue{
+  
+  background-color:blue;
+}
+.table .blue:active, .table .blue.active{
+  opacity: 0.50
+ 
+}
+
+.table {
+  width:400px;
+  height: 400px;
+ 
+}
+
+tr, td{
+  width:200px;
+  height:200px;
+  text-align:center;
+  border: solid 10px white;
+}
+
+#controlPanel{
+  border: 1px solid black;
+  text-align:center;
+  width:400px;
+  background-color: black;
+ 
+  
+}
+
+.container, #controlPanel, .table{
+  align:center;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+.container{
+  border: 1px solid black;
+  width: 500px;
+  height: 600px;
+  
+}
+body{
+  background-color: black;
+  color: white;
+}
+.counter{
+  font-size: 28px;
+}

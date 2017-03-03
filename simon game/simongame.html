@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simon Game</title>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Javascript.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+<div class="container">
+  <h1 id="title">Simon Game</h1>
+  <div id="controlPanel">
+    <h1 class="counter">LEVEL: <span class="counter">1</span></h1>
+    <button class="btn" id="start">(re)start</button>
+    <button class="btn" id="strict">strict</button>
+
+  </div>
+  
+  
+  <div id="gameBoard">
+    <table class="table">
+     <tr>
+       <a class="btn" ><td class="green grid" id="0"></td></a>
+        <a class="btn"><td class="red grid" id="1"></td></a>
+    </tr>
+  <tr>
+       <a class="btn"><td class="yellow grid" id="2"></td></a>
+       <a class="btn"><td class="blue grid" id="3"></td></a>
+      </tr>
+    </table>
+  </div>
+
+  <audio >
+    <source id="greenSound" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3" />
+   
+    
+    
+  Your browser does not support the audio element.
+</audio>
+  <audio><source id="redSound" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3" />
+   Your browser does not support the audio element.</audio>
+  <audio><source id="yellowSound" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3" />
+   Your browser does not support the audio element.</audio>
+  <audio><source id="blueSound" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3" />
+   Your browser does not support the audio element.</audio>
+</div>
+</body>
+</html>
+
